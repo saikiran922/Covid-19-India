@@ -165,4 +165,4 @@ app.get("/districts/:districtId/details/", async (request, response) => {
   response.send(getStateNameQueryResponse);
 });
 
-module.export = app;
+module.exports = app;
